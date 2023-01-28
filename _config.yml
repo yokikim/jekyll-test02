@@ -31,28 +31,54 @@ github_username:  yokikim
 theme: minima
 plugins:
   - jekyll-feed
-#  - jekyll-relative-links
+  - jekyll-relative-links
   - jekyll-admin
   - jekyll-coffeescript
-#  - jekyll-default-layout
+  - jekyll-default-layout
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
   - jekyll-paginate
   - jekyll-sitemap
-
+  - jekyll-include-cache
+  - jekyll-sass-converter
+  - jekyll-wikilinks
+  
 whitelist:
-#  - jekyll-relative-links
+  - jekyll-relative-links
   - jekyll-admin
   - jekyll-coffeescript
-#  - jekyll-default-layout
+  - jekyll-default-layout
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-include-cache
+  - jekyll-sass-converter
+  - jekyll-wikilinks
   
 jekyll_admin:
   hidden_links: 
   homepage: ""
+  
+wikilinks:
+  attributes:
+    enabled: true
+  css:
+    exclude: []
+    name:
+      typed: 'typed'
+      wiki: 'wiki-link'
+      web: 'web-link'
+      invalid_wiki: 'invalid-wiki-link'
+      embed_container: 'embed-container'
+      embed_title: 'embed-title'
+      embed_content: 'embed-content'
+      embed_link: 'embed-wiki-link'
+      embed_image_container: 'embed-image-container'
+      embed_image: 'embed-image'
+  enabled: true
+  exclude: []
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

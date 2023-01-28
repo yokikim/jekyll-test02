@@ -24,6 +24,14 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
+  gem "jekyll-redirect-from"
+  gem "jekyll-remote-theme"
+  gem "jekyll-sass-converter"
+  gem "jekyll-sitemap"
+  gem "html-pipeline"
+  gem "jekyll-include-cache"
+  gem "jekyll-sass-converter"
+  gem "jekyll-wikilinks"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
